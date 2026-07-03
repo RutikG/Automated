@@ -38,7 +38,7 @@ jobs:
         uses: peter-evans/workflow-dispatch@v2
         with:
           token: ${{ secrets.MAN_TOKEN }}
-          repository: Manifest
+          repository: RutikG/Manifest
           event-type: deploy
           client-payload: |
             {
