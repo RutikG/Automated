@@ -37,7 +37,7 @@ jobs:
         if: success()
         uses: peter-evans/workflow-dispatch@v2
         with:
-          token: ${{ secrets.GITHUB_MAN_TOKEN }}
+          token: ${{ secrets.MAN_TOKEN }}
           repository: Manifest
           event-type: deploy
           client-payload: |
