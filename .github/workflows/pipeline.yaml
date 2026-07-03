@@ -16,6 +16,8 @@ jobs:
       - name: Download repository
         uses: actions/checkout@v4
         with:
+          repository: RutikG/App
+          token: ${{ secrets.APP_TOKEN }}
           path: e-2-e-app
 
       - name: Create Docker File and Build Docker Image
